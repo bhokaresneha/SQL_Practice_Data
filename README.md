@@ -1,5 +1,5 @@
-SQL_Practice_Files
-
+**SQL_Practice_Files
+**************
 Structured Query Language with the help of MS-SQL
 
 SQL is used to perform operations on records stored in the database such as updating records, creating and modifying database tables, views etc.
