@@ -1,4 +1,4 @@
-                                                                      ****SQL_Practice_Data****
+****SQL_Practice_Data****
 *****
 Structured Query Language with the help of MS-SQL
 
