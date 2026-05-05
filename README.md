@@ -1,4 +1,4 @@
-*SQL_Practice_Files*
+*SQL_Practice_Data*
 **************
 Structured Query Language with the help of MS-SQL
 
@@ -11,7 +11,7 @@ SQL is a standard language for relational database management system.
 
 • DML (Data Manipulation Language)
 
-SQL Practice files are:
+**SQL Practice files are:**
 
 • Clauses
 
