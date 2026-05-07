@@ -1,0 +1,52 @@
+Operator Precedence in MySQL
+
+Parentheses (...)
+Always evaluated first, no matter what.
+Example: (2+3)*4 = 20, not 2+(3*4).
+
+
+Unary operators
+- (negative), ! (logical NOT), ~ (bitwise NOT).
+Example: -5 + 3 = -2.
+
+
+
+Arithmetic operators
+*, /, % (multiplication, division, modulo).
+Then +, - (addition, subtraction).
+Example: 10 + 2 * 3 = 16 (not 36).
+
+
+
+Bitwise shift operators
+<<, >>
+Example: 4 << 1 = 8.
+
+
+
+Comparison operators
+=, <=>, >, <, >=, <=, <>, !=, BETWEEN, IN, LIKE, REGEXP.
+
+
+
+Example: 5 > 3+4 → 5 > 7 → false.
+IS operators
+IS NULL, IS NOT NULL, IS TRUE, IS FALSE.
+Example: NULL IS NULL → true.
+
+
+
+NOT (logical)
+Example: NOT (5 > 3) → false.
+
+AND (logical)
+Example: (5 > 3) AND (2 > 4) → false.
+
+XOR
+Example: 1 XOR 0 → 1, 1 XOR 1 → 0.
+
+
+
+OR (logical)
+Lowest precedence.
+Example: (5 > 3) OR (2 > 4) → true.
